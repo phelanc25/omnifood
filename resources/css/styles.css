@@ -27,6 +27,74 @@ html {
     margin: auto auto;  /* shorthand for making top and bottom margin 0 while making left and right margin center */
 }
 
+/* Adding padding to top of section to create white space */
+section {
+    padding: 80px 0px;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ----- Headings ----- */
+h1, h2, h3 {
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    word-spacing: 4px;
+    color: #fff;
+    font-size: 240%;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+    letter-spacing: normal;
+}
+
+/* ----- Paragraphs ----- */
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 30px;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/* ---- ICONS ----- */
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+
 /* ---- HEADINGS ----- */
 header {
     /* setting background image and setting a black overlay to make image slightly darker. This will help with contrast needed for the text*/
@@ -89,17 +157,6 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-}
-
-h1 {
-    margin: 0;
-    margin-bottom: 20px;
-    color: #fff;
-    font-size: 240%;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 4px;
-    font-weight: 300;
 }
 
 .logo {
