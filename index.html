@@ -2,6 +2,9 @@
 <html lang="en">
 
     <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
@@ -9,6 +12,8 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         
         <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
+        
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css" >
         
         <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,300i,400" rel="stylesheet" type="text/css">
         
@@ -20,14 +25,18 @@
     <body>
     
         <header>
-            <nav class="row">
-                <img src="resources/img/logo-white.png" alt="Omnifood Logo" class="logo">
-                <ul class="main-nav">
-                    <li><a href="#">Food Delivery</a></li>
-                    <li><a href="#">How it Works</a></li>
-                    <li><a href="#">Our Cities</a></li>
-                    <li><a href="#">Sign Up</a></li>
-                </ul>
+            <nav class="sticky">
+                <div class="row">
+                    <img src="resources/img/logo-white.png" alt="Omnifood Logo" class="logo">
+                    <img src="resources/img/logo.png" alt="Omnifood Logo" class="logo-black">
+                    <ul class="main-nav">
+                        <li><a href="#">Food Delivery</a></li>
+                        <li><a href="#">How it Works</a></li>
+                        <li><a href="#">Our Cities</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul>
+                </div>
+                
             </nav>
             <div class="hero-text-box">                
                 <h1>Goodbye junk food.<br>Hello super healthy meals.</h1>
@@ -292,6 +301,7 @@
             
         </section>
         
+        <!-- 01/21/2018: Added section to show meal plans -->
         <section class="section-plans">
             
             <div class="row">
@@ -463,7 +473,51 @@
         
         </section> <!-- END OF CONTACT SECTION -->
         
-    </body>
+        <!-- START OF THE FOOTER -->
+        <footer>
+                
+            <div class="row">
+                <!-- Navigation to our site pages -->
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">iOS App</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                </div>
+                <!-- Social media navigation -->
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
 
+            </div>
+
+            <div class="row">
+                <p>
+                    Copyright &copy; 20015 by Omnifood. All rights reserved.
+                </p>
+            </div>
+            
+        </footer> <!-- END OF THE FOOTER -->
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+        
+        <script src="resources/js/scripts.js"></script>
+        
+    </body>
+    
 </html>
 
