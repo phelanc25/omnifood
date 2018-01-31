@@ -250,14 +250,17 @@ input[type=submit]{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255,255,255,0.8);
+    background-color: #ffffff; /* old color = rgba(255,255,255,0.8) */ 
     box-shadow: 0 2px 2px #e4e1e1;
+    z-index: 9990;
 }
 
-.main-nav { margin-top: 18px; }
+.sticky .main-nav { margin-top: 18px; }
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
-    padding: 16px 0;
+    /* setting space between link and orange pipe below link */ 
+    padding: 19px 0; 
+    /*  setting the color of font for sticky nav bar */
     color: #555;
 }
 
